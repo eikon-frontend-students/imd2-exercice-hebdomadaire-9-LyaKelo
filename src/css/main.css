@@ -12,3 +12,55 @@ img,
 video {
   display: block;
 }
+
+body {
+  background: rgba(0, 0, 0, 0.10);
+  font-family: Roboto;
+}
+
+.card {
+  border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+padding: 30px;
+width: 420px;
+height: fit-content;
+margin-top: 250px;
+margin-left: 35%;
+}
+
+.delete {
+font-size: 20px;
+font-weight: 500;
+margin-bottom: 30px;
+}
+.verification {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.ah {
+  display: flex;
+font-size: 14px;
+font-weight: 400;
+letter-spacing: 0.84px;
+text-transform: uppercase;
+}
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+}
+.ah .annuler{
+  background-color: white;
+  padding: 6px 12px;
+}
+.ah .supprimer{
+  border-radius: 3px;
+  background: #1867C0;
+  box-shadow: 2px 2px 2px -1px rgba(24, 103, 192, 0.25);
+  color: #FFF;
+  padding: 6px 12px;
+}
